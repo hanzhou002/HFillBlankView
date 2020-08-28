@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		72705CFF24F5F92A00B9B476 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705CFE24F5F92A00B9B476 /* AppDelegate.m */; };
-		72705D0224F5F92A00B9B476 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D0124F5F92A00B9B476 /* SceneDelegate.m */; };
 		72705D0524F5F92A00B9B476 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D0424F5F92A00B9B476 /* ViewController.m */; };
 		72705D0824F5F92A00B9B476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72705D0624F5F92A00B9B476 /* Main.storyboard */; };
 		72705D0A24F5F92C00B9B476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72705D0924F5F92C00B9B476 /* Assets.xcassets */; };
 		72705D0D24F5F92C00B9B476 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72705D0B24F5F92C00B9B476 /* LaunchScreen.storyboard */; };
 		72705D1024F5F92C00B9B476 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D0F24F5F92C00B9B476 /* main.m */; };
+		72705D1824F60AF100B9B476 /* FillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D1724F60AF100B9B476 /* FillViewController.m */; };
+		72705D1B24F60FDD00B9B476 /* FillBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D1A24F60FDD00B9B476 /* FillBlankView.m */; };
+		72705D1E24F79D7F00B9B476 /* FillTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D1D24F79D7F00B9B476 /* FillTextView.m */; };
+		72705D2124F7A7B300B9B476 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D2024F7A7B300B9B476 /* NSDictionary+Safe.m */; };
+		72705D2424F7B9C800B9B476 /* FillBlankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 72705D2324F7B9C800B9B476 /* FillBlankModel.m */; };
+		8C1A042A5F3C7B4977DD3777 /* libPods-HFillBlank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C91C332C2B5791B613127 /* libPods-HFillBlank.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471C453B0422822FA4A03E93 /* Pods-HFillBlank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFillBlank.debug.xcconfig"; path = "Target Support Files/Pods-HFillBlank/Pods-HFillBlank.debug.xcconfig"; sourceTree = "<group>"; };
 		72705CFA24F5F92A00B9B476 /* HFillBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFillBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72705CFD24F5F92A00B9B476 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		72705CFE24F5F92A00B9B476 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		72705D0024F5F92A00B9B476 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		72705D0124F5F92A00B9B476 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		72705D0324F5F92A00B9B476 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		72705D0424F5F92A00B9B476 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		72705D0724F5F92A00B9B476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +33,18 @@
 		72705D0C24F5F92C00B9B476 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72705D0E24F5F92C00B9B476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72705D0F24F5F92C00B9B476 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72705D1624F60AF100B9B476 /* FillViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillViewController.h; sourceTree = "<group>"; };
+		72705D1724F60AF100B9B476 /* FillViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillViewController.m; sourceTree = "<group>"; };
+		72705D1924F60FDD00B9B476 /* FillBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillBlankView.h; sourceTree = "<group>"; };
+		72705D1A24F60FDD00B9B476 /* FillBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillBlankView.m; sourceTree = "<group>"; };
+		72705D1C24F79D7F00B9B476 /* FillTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillTextView.h; sourceTree = "<group>"; };
+		72705D1D24F79D7F00B9B476 /* FillTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillTextView.m; sourceTree = "<group>"; };
+		72705D1F24F7A7B300B9B476 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		72705D2024F7A7B300B9B476 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		72705D2224F7B9C800B9B476 /* FillBlankModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FillBlankModel.h; sourceTree = "<group>"; };
+		72705D2324F7B9C800B9B476 /* FillBlankModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FillBlankModel.m; sourceTree = "<group>"; };
+		876C91C332C2B5791B613127 /* libPods-HFillBlank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFillBlank.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB7AB10FAC828C12FD7DD68 /* Pods-HFillBlank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFillBlank.release.xcconfig"; path = "Target Support Files/Pods-HFillBlank/Pods-HFillBlank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1A042A5F3C7B4977DD3777 /* libPods-HFillBlank.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +64,8 @@
 			children = (
 				72705CFC24F5F92A00B9B476 /* HFillBlank */,
 				72705CFB24F5F92A00B9B476 /* Products */,
+				8A84614AD19C646E2FEA81C9 /* Pods */,
+				AF71DA1B77B1B75362E26363 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,10 +82,18 @@
 			children = (
 				72705CFD24F5F92A00B9B476 /* AppDelegate.h */,
 				72705CFE24F5F92A00B9B476 /* AppDelegate.m */,
-				72705D0024F5F92A00B9B476 /* SceneDelegate.h */,
-				72705D0124F5F92A00B9B476 /* SceneDelegate.m */,
 				72705D0324F5F92A00B9B476 /* ViewController.h */,
 				72705D0424F5F92A00B9B476 /* ViewController.m */,
+				72705D1624F60AF100B9B476 /* FillViewController.h */,
+				72705D1724F60AF100B9B476 /* FillViewController.m */,
+				72705D1924F60FDD00B9B476 /* FillBlankView.h */,
+				72705D1A24F60FDD00B9B476 /* FillBlankView.m */,
+				72705D1C24F79D7F00B9B476 /* FillTextView.h */,
+				72705D1D24F79D7F00B9B476 /* FillTextView.m */,
+				72705D2224F7B9C800B9B476 /* FillBlankModel.h */,
+				72705D2324F7B9C800B9B476 /* FillBlankModel.m */,
+				72705D1F24F7A7B300B9B476 /* NSDictionary+Safe.h */,
+				72705D2024F7A7B300B9B476 /* NSDictionary+Safe.m */,
 				72705D0624F5F92A00B9B476 /* Main.storyboard */,
 				72705D0924F5F92C00B9B476 /* Assets.xcassets */,
 				72705D0B24F5F92C00B9B476 /* LaunchScreen.storyboard */,
@@ -76,6 +103,23 @@
 			path = HFillBlank;
 			sourceTree = "<group>";
 		};
+		8A84614AD19C646E2FEA81C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				471C453B0422822FA4A03E93 /* Pods-HFillBlank.debug.xcconfig */,
+				CFB7AB10FAC828C12FD7DD68 /* Pods-HFillBlank.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF71DA1B77B1B75362E26363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				876C91C332C2B5791B613127 /* libPods-HFillBlank.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +127,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72705D1324F5F92C00B9B476 /* Build configuration list for PBXNativeTarget "HFillBlank" */;
 			buildPhases = (
+				02B770019ACEE32E5AB94972 /* [CP] Check Pods Manifest.lock */,
 				72705CF624F5F92A00B9B476 /* Sources */,
 				72705CF724F5F92A00B9B476 /* Frameworks */,
 				72705CF824F5F92A00B9B476 /* Resources */,
@@ -141,15 +186,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02B770019ACEE32E5AB94972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFillBlank-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72705CF624F5F92A00B9B476 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				72705D0524F5F92A00B9B476 /* ViewController.m in Sources */,
+				72705D1824F60AF100B9B476 /* FillViewController.m in Sources */,
+				72705D1B24F60FDD00B9B476 /* FillBlankView.m in Sources */,
+				72705D2424F7B9C800B9B476 /* FillBlankModel.m in Sources */,
 				72705CFF24F5F92A00B9B476 /* AppDelegate.m in Sources */,
+				72705D2124F7A7B300B9B476 /* NSDictionary+Safe.m in Sources */,
+				72705D1E24F79D7F00B9B476 /* FillTextView.m in Sources */,
 				72705D1024F5F92C00B9B476 /* main.m in Sources */,
-				72705D0224F5F92A00B9B476 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +361,11 @@
 		};
 		72705D1424F5F92C00B9B476 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471C453B0422822FA4A03E93 /* Pods-HFillBlank.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KY8ZQYW89;
 				INFOPLIST_FILE = HFillBlank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,9 +379,11 @@
 		};
 		72705D1524F5F92C00B9B476 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB7AB10FAC828C12FD7DD68 /* Pods-HFillBlank.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KY8ZQYW89;
 				INFOPLIST_FILE = HFillBlank/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

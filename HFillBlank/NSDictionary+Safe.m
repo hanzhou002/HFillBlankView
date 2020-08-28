@@ -7,10 +7,18 @@
 //
 
 #import "NSDictionary+Safe.h"
-
-#import <AppKit/AppKit.h>
-
-
 @implementation NSDictionary (Safe)
+
+- (NSString *)getString:(NSString *)key
+{
+    return [self getString:key withDefault:@""];
+}
+- (NSString *)getString:(NSString *)key withDefault:(NSString *)d
+{
+    id value = [self objectForKey:key];
+    if ([value isKindOfClass:[NSString class]]) return value;
+    if ([value respondsToSelector:@selector(stringValue)]) return [value stringValue];
+    return d;
+}
 
 @end

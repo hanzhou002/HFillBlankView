@@ -7,7 +7,7 @@
 //
 
 #import "YYTextView.h"
-
+#import <YYText/YYText.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FillTextView : YYTextView

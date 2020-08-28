@@ -6,14 +6,13 @@
 //  Copyright © 2020 Hao Xiangfeng. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
-
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (Safe)
+
+- (NSString *)getString:(NSString *)key;
 
 @end
 

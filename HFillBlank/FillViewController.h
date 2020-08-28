@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FillViewController : UIViewController
 
+@property (nonatomic, assign) BOOL isInputed;
+
 @end
 
 NS_ASSUME_NONNULL_END

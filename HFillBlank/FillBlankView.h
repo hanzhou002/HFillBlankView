@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FillBlankView : UIView
 
+- (void)testWithIsShow:(BOOL)isShow;
+
 @end
 
 NS_ASSUME_NONNULL_END
