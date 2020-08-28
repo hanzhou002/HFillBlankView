@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  FillBlankView.h
 //  HFillBlank
 //
 //  Created by xiangfeng hao on 2020/8/26.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface FillBlankView : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END
